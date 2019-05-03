@@ -8,3 +8,4 @@ node {
     stage('exec'){
         sh 'cd sample/pipeline-as-code && java -cp target/hello-1.0.jar com.systex.HelloWorld'
     }
+}
